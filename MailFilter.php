@@ -1,5 +1,6 @@
 <?php
 
+phpinfo();
 if(isset($_POST['user_message'])){
 	$filtered_mail = filter_input(INPUT_POST, 'user_mail', FILTER_SANITIZE_EMAIL);
 	if($filtered_mail == FILTER_VALIDATE_EMAIL){

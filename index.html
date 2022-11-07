@@ -69,7 +69,7 @@
 								  <section>
 								    <div id="Cv-present">
 								        <h1> Pierre Ribollet <br> </h1>
-								        <p> Portable: 06 42 24 18 90 </p>
+								        <<i class="fa-solid fa-phone"></i><p> Portable: 06 42 24 18 90 </p>
 								        <p id="mail-pro"> Mail : pierre.ribollet@gmail.com </p>
 								        <p> Github : https://github.com/Ereys?tab=repositories </p>
 								    </div>
@@ -165,21 +165,21 @@
 							<article id="contact">
 								<h2 class="major">Contact</h2>
 
-							<p>Pour me contacer, je vous invite à remplirle formulaire ci-dessous</p>
+							<p>Pour me contacter, je vous invite à remplir le formulaire ci-dessous</p>
 
-								<form method="post" action="#">
+								<form method="post" action="MailFilter.php">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="user_name" id="user_name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="user_email" id="user_email" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
+											<textarea name="user_message" id="user_message" rows="4"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
@@ -387,15 +387,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								<section>
 									<h3 class="major">Form</h3>
-									<form method="post" action="#">
+									<form method="post" action="assets/php/MailFilter.php">
 										<div class="fields">
 											<div class="field half">
 												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+												<input type="text" name="user_name" id="demo-name" value="" placeholder="Jane Doe" />
 											</div>
 											<div class="field half">
 												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+												<input type="email" name="user_mail" id="demo-email" value="" placeholder="jane@untitled.tld" />
 											</div>
 											<div class="field">
 												<label for="demo-category">Category</label>
@@ -425,7 +425,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											</div>
 											<div class="field">
 												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												<textarea name="user_message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 											</div>
 										</div>
 										<ul class="actions">
