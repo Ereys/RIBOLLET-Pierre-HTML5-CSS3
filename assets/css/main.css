@@ -198,6 +198,8 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
+
+
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
@@ -1315,6 +1317,83 @@ input, select, textarea {
 				top: 50%;
 			}
 
+	#git{
+		display: flex;
+		text-align: center;
+	}
+
+
+/*  ----------------------------------------------------------------------------------- */
+
+
+	#about h2{
+		padding-bottom: 5%;
+	}
+	
+	#about #passion-paire{
+		border: 2px;
+		display: flex;
+		padding-bottom: 10%;
+	}
+
+	#about #passion-impaire{
+		border: 2px;
+		display: flex;
+		padding-bottom: 10%;
+	}
+
+
+	/* img */
+
+	#about img:hover{
+		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+		background-color: red;
+	}
+
+		#about #passion-paire img{
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			width: 75%;	
+		}
+
+		#about #passion-impaire img{
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			width: 75%;
+		}
+
+	/* p */
+
+		#about #passion-paire p{
+			margin: 2%;
+		}
+
+		#about #passion-impaire p{
+			margin: 2%;	
+		}
+
+
+
+
+
+/* About  ----------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1456,6 +1535,7 @@ input, select, textarea {
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						text-decoration: underline;
 					}
 
 					#header nav ul li a:active {
