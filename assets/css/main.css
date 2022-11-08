@@ -1238,11 +1238,6 @@ input, select, textarea {
 		}
 
 
-	{
-
-	}
-
-
 /* CV Section ----------------------------------------------------------------------------------- */
 
 
@@ -1326,77 +1321,66 @@ input, select, textarea {
 /*  ----------------------------------------------------------------------------------- */
 
 
-	#about h2{
-		padding-bottom: 5%;
-	}
-	
-	#about #passion-paire{
-		border: 2px;
-		display: flex;
-		padding-bottom: 10%;
-	}
-
-	#about #passion-impaire{
-		border: 2px;
-		display: flex;
-		padding-bottom: 10%;
-	}
-
-
-	/* img */
-
-	#about img:hover{
-		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-		background-color: red;
-	}
-
-		#about #passion-paire img{
-			border: 1px solid #ddd;
-			border-radius: 4px;
-			width: 75%;	
-		}
-
-		#about #passion-impaire img{
-			border: 1px solid #ddd;
-			border-radius: 4px;
-			width: 75%;
-		}
-
-	/* p */
-
-		#about #passion-paire p{
-			margin: 2%;
-		}
-
-		#about #passion-impaire p{
-			margin: 2%;	
-		}
-
-
-
-
-
 /* About  ----------------------------------------------------------------------------------- */
 
 
+#about h2{
+	padding-bottom: 5%;
+}
+
+#about #passion-paire{
+	border: 2px;
+	display: flex;
+	padding-bottom: 10%;
+}
+
+#about #passion-impaire{
+	border: 2px;
+	display: flex;
+	padding-bottom: 10%;
+}
 
 
+/* img */
+
+#about img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	background-color: red;
+}
+
+	#about #passion-paire img{
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		width: 75%;	
+	}
+
+	#about #passion-impaire img{
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		width: 75%;
+	}
+
+/* p */
+
+	#about #passion-paire p{
+		margin: 2%;
+	}
+
+	#about #passion-impaire p{
+		margin: 2%;	
+	}
+
+/*  ----------------------------------------------------------------------------------- */
+
+/*  Scroll 	----------------------------------------------------------------------------------- */
 
 
+	#scrollButton{
+		display: block;
+		position: fixed;
+		right: 20%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
 
 /*  ----------------------------------------------------------------------------------- */
 
