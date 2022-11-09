@@ -1,9 +1,19 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Accueil](#accueil)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+3. [Carrousel](#carrousel)
+4. [Passion](#passion)
+5. [CV](#cv)
+6. [Jeu](#jeu)
 
 ### General Info
-![Screen](CV.png)
+![Alt text](/Screen/Index.png "Optional title")
+### Accueil
+
+### Carrousel
+
+### Passion
+
+### CV
+
+### Jeu
