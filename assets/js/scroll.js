@@ -21,7 +21,7 @@ setInterval(() => {
 function windowScroll(){
 
     /* Si on a scroll */
-    if(document.documentElement.scrollTop > 20){
+    if(document.documentElement.scrollTop > 100){
         button.style.display = "block";
     }else{
         button.style.display = "none";

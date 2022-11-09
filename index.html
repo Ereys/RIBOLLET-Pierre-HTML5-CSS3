@@ -35,6 +35,7 @@
 								<li><a href="#work">&nbsp;&nbsp;&nbsp;Projets&nbsp;&nbsp;&nbsp;</a></li>
 								<li><a href="#cv">CV</a></li>
 								<li><a href="#about">Passions</a></li>
+								<li><a href="#jeu">Jeu</a></li>
 								<li><a href="#contact">Me contacter</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -95,9 +96,9 @@
 								  <section>
 								    <div id="Cv-present">
 								        <h1> Pierre Ribollet <br> </h1>
-								        <i class="fa-solid fa-phone"></i> <p> Portable: 06 42 24 18 90 </p>
-								        <i class="fa-solid fa-envelope"></i></i> <p id="mail-pro"> Mail : pierre.ribollet@gmail.com </p>
-								        <i class="fa-brands fa-github"></i><p> Github : https://github.com/Ereys?tab=repositories </p>
+								        <span class="infos"><i class="fa-solid fa-phone"></i> <p> Portable: 06 42 24 18 90 </p></span>
+								        <span class="infos"><i class="fa-solid fa-envelope"></i></i> <p id="mail-pro"> Mail : pierre.ribollet@gmail.com </p></span>
+								        <span class="infos"><i class="fa-brands fa-github"></i><p> Github : https://github.com/Ereys?tab=repositories </p></span>
 								    </div>
 
 								    <div id="Formation">
@@ -234,6 +235,30 @@
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
+
+
+						<!-- Jeu  -->
+
+						<article id="jeu">
+							<h2 class="major">Faire un choix :</h2>
+							<div id="game_container">
+								<div id="choice_container">
+									<button onclick="game_play('pierre')" class="game_choice" id="rock"><img src="images/pierre.jpg" alt="" /></button>
+									<button onclick="game_play('feuille')" class="game_choice" id="paper"><img src="images/feuille.jpg	" alt="" /></button>
+									<button onclick="game_play('ciseaux')" class="game_choice" id="scissors"><img src="images/ciseaux.jpg" alt="" /></button>
+								</div>
+
+								<div id="print_vs">
+									<img id="player" src="images/interro.png"/>
+									<img id="bot" src="images/interro.png"/>
+								</div>
+								<div id="result_container">
+									<p id="game_win"> nb game gagné : </p>
+									<p id="game_played">nb game joué : </p>
+									<p id="game_result"></p>	
+								</div>
+							</div>
+						</article>
 
 						<!-- Elements -->
 							<article id="elements">
@@ -500,6 +525,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/carrousel.js"></script>
 			<script src="assets/js/scroll.js"></script>
+			<script src="assets/js/game.js"></script>
 
 	</body>
 </html>

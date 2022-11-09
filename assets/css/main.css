@@ -1246,6 +1246,14 @@ input, select, textarea {
     border-bottom: 2px solid #333333;
  }
 
+   .infos{
+	display: flex;
+	text-align: start;
+   }
+   		.infos p{
+			margin: 2%;
+		}
+
   #Formation{
  	border-top: 2px solid #333333;
     border-bottom: 2px solid #333333;
@@ -1376,11 +1384,45 @@ input, select, textarea {
 
 
 	#scrollButton{
-		display: block;
+		display: none;
 		position: fixed;
 		right: 20%;
 
 	}
+
+/*  ----------------------------------------------------------------------------------- */
+
+/*  Game ----------------------------------------------------------------------------------- */
+
+	#game_container{
+	}
+		#game_container #choice_container{
+			display: flex;
+			background-color: red;
+
+		}
+			#game_container #choice_container button{
+			}
+			#game_container #choice_container img{
+				width: 50%;
+			}
+
+		#game_container #print_vs{
+			padding-top : 10%;	
+			display: flex;
+			justify-content: space-around
+		}
+			#game_container #print_vs img{
+				width: 20%;
+			}
+
+
+
+		#game_container #result_container{
+			padding-top : 10%;
+			display: flex;
+			justify-content: space-between;
+		}	
 
 /*  ----------------------------------------------------------------------------------- */
 
