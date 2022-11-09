@@ -14,6 +14,8 @@ var game_choice = {pierre:"feuille" , feuille:"ciseaux", ciseaux:"pierre"};
 function reset_game(){
     nb_played = 0;
     nb_win = 0;
+    print_win.textContent = "nb game gagné : " + nb_win;
+    print_nb_played.textContent = "nb game joué : "  + nb_played;
 }
 
 

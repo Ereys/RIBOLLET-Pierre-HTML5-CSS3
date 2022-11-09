@@ -237,15 +237,15 @@
 							</article>
 
 
-						<!-- Jeu  -->
+						<!-- Game  -->
 
 						<article id="jeu">
 							<h2 class="major">Faire un choix :</h2>
 							<div id="game_container">
 								<div id="choice_container">
-									<button onclick="game_play('pierre')" class="game_choice" id="rock"><img src="images/pierre.jpg" alt="" /></button>
-									<button onclick="game_play('feuille')" class="game_choice" id="paper"><img src="images/feuille.jpg	" alt="" /></button>
-									<button onclick="game_play('ciseaux')" class="game_choice" id="scissors"><img src="images/ciseaux.jpg" alt="" /></button>
+									<input onclick="game_play('pierre')" type="image" id="rock" alt="rock" src="images/pierre.jpg">
+									<input onclick="game_play('feuille')" type="image" id="paper" alt="paper" src="images/feuille.jpg">
+									<input onclick="game_play('ciseaux')" type="image" id="scissors" alt="scissors" src="images/ciseaux.jpg">
 								</div>
 
 								<div id="print_vs">
@@ -257,6 +257,8 @@
 									<p id="game_played">nb game joué : </p>
 									<p id="game_result"></p>	
 								</div>
+
+								<button onclick="reset_game()" >Reset</button>
 							</div>
 						</article>
 
